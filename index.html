@@ -216,7 +216,7 @@
                     <p class="mt-2 text-3xl font-extrabold text-white sm:text-4xl tracking-tight" data-i18n="personas_title">Your pain is our starting point.</p>
                 </div>
                 
-                <!-- Grid de Personas (Reduced to 2 columns and centered) -->
+                <!-- Grid de Personas -->
                 <div class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 max-w-4xl mx-auto">
                     <!-- Persona 1: WEG Field Salesperson -->
                     <div class="bg-weg-dark border border-weg-gray/20 rounded-xl shadow-lg p-6 flex flex-col transform transition-transform hover:scale-105 hover:border-weg-light hover:shadow-weg-light/20">
@@ -250,7 +250,7 @@
             </div>
         </section>
 
-        <!-- Solution Section (SPLIT GRID CAROUSEL - ADJUSTED) -->
+        <!-- Solution Section -->
         <section id="solucao" class="py-16 sm:py-24 bg-weg-dark overflow-hidden">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="relative text-center mb-16">
@@ -261,10 +261,9 @@
                     </p>
                 </div>
 
-                <!-- Main Grid: Updated to 5 columns (2/5 Steps | 3/5 Image) -->
                 <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12 items-start">
                     
-                    <!-- Left Column: Interactive Steps List (2/5 = col-span-2) -->
+                    <!-- Left Column: Interactive Steps List -->
                     <div class="lg:col-span-2 flex flex-col space-y-4" id="steps-container">
                         <!-- Step 1 -->
                         <div id="step-btn-1" class="step-item active p-5 rounded-xl cursor-pointer group flex flex-col" onclick="updateSolutionImage(1)">
@@ -311,9 +310,8 @@
                         </div>
                     </div>
 
-                    <!-- Right Column: Dynamic Image (3/5 width = col-span-3) -->
+                    <!-- Right Column: Dynamic Image -->
                     <div class="lg:col-span-3 h-full min-h-[300px] lg:min-h-[500px] relative rounded-2xl shadow-2xl border border-weg-gray/20 overflow-hidden bg-black/40">
-                        <!-- UPDATED SOLUTION IMAGE (INITIAL STEP 1) -->
                         <img id="solution-image" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500" 
                              src="images/the_solution_1.png" 
                              onerror="this.src='https://placehold.co/1200x800/2c3e50/00B0F0?text=Step+1:+Smartphone+Capture'"
@@ -334,18 +332,17 @@
                     </p>
                 </div>
 
-                <!-- Grid de Soluções -->
                 <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     <div class="bg-weg-dark border border-weg-gray/20 rounded-xl shadow-lg p-8">
                         <h3 class="text-xl font-bold text-weg-light" data-i18n="sol_2_title">For the Field Salesperson</h3>
                         <p class="mt-3 text-base text-gray-300" data-i18n="sol_2_desc">
-                            <strong>Stop measuring, start selling.</strong> The simple app guides you step-by-step to capture all critical dimensions and surroundings at once, eliminating errors and repeat visits.
+                            <strong>One scan, all dimensions.</strong> The simple app help you capture all critical dimensions and surroundings at once, eliminating errors and repeat visits.
                         </p>
                     </div>
                     <div class="bg-weg-dark border border-weg-gray/20 rounded-xl shadow-lg p-8">
                         <h3 class="text-xl font-bold text-weg-light" data-i18n="sol_3_title">For the Branch</h3>
                         <p class="mt-3 text-base text-gray-300" data-i18n="sol_3_desc">
-                            <strong>Generate automatic quotes and win more deals.</strong> Stop wasting time on rework. Our tool integrates measurements directly with engineering, cutting quote time and eliminating costly third-party scans.
+                            <strong>Faster quotes to win more deals.</strong> With no rework, the tool delivers measurements directly to engineering, cutting quote time and eliminating costly third-party scans.
                         </p>
                     </div>
                 </div>
@@ -361,13 +358,11 @@
                 </div>
                 <!-- Carousel Container -->
                 <div class="relative max-w-5xl mx-auto">
-                    <!-- Carousel Slides Wrapper -->
                     <div class="overflow-hidden rounded-xl shadow-lg bg-black/30 border border-weg-gray/20">
                         <div class="flex transition-transform duration-500 ease-in-out" id="carousel-track">
-                            <!-- Slide 1: Christian Huerta -->
+                            <!-- Slide 1 -->
                             <div class="w-full flex-shrink-0 p-8 md:p-12">
                                 <div class="flex flex-col md:flex-row gap-8 items-center">
-                                    <!-- UPDATED USER STORY IMAGE -->
                                     <img class="w-full md:w-1/3 h-64 md:h-auto rounded-lg object-cover border border-weg-gray/20" src="images/user_stories_chile.png" alt="WEG Chile - FastReplace">
                                     <div class="md:w-2/3">
                                         <div class="flex gap-2 mb-4">
@@ -375,11 +370,9 @@
                                             <span class="bg-weg-light/20 text-weg-light border border-weg-light/30 text-xs font-semibold px-2.5 py-0.5 rounded" data-i18n="tag_speed">Speed</span>
                                         </div>
                                         <blockquote class="border-l-4 border-weg-light pl-4 italic mb-6">
-                                            <!-- Christian: revolutionize -->
                                             <p class="text-gray-200 text-lg md:text-xl" data-i18n="story_1_quote">"I believe it will <strong class="text-weg-light">revolutionize</strong> the work we do in the field. [...] With this, we can have an advantage by working more quickly in data collection."</p>
                                         </blockquote>
                                         <footer class="flex items-center">
-                                            <!-- UPDATED PROFILE PHOTO -->
                                             <img class="h-12 w-12 rounded-full object-cover border border-weg-gray/40" src="images/user_stories_chile_chuerta.png" alt="Christian Huerta">
                                             <div class="ml-4">
                                                 <p class="text-sm font-semibold text-gray-200">Christian Huerta</p>
@@ -389,10 +382,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Slide 2: Eliandro da Silva -->
+                            <!-- Slide 2 -->
                             <div class="w-full flex-shrink-0 p-8 md:p-12">
                                 <div class="flex flex-col md:flex-row gap-8 items-center">
-                                    <!-- UPDATED USER STORY IMAGE -->
                                     <img class="w-full md:w-1/3 h-64 md:h-auto rounded-lg object-cover border border-weg-gray/20" src="images/user_stories_brazil.png" alt="Refinery Scan - FastReplace">
                                     <div class="md:w-2/3">
                                         <div class="flex gap-2 mb-4">
@@ -400,11 +392,9 @@
                                             <span class="bg-weg-light/20 text-weg-light border border-weg-light/30 text-xs font-semibold px-2.5 py-0.5 rounded" data-i18n="tag_efficiency">Efficiency</span>
                                         </div>
                                         <blockquote class="border-l-4 border-weg-light pl-4 italic mb-6">
-                                            <!-- Eliandro: very good accuracy -->
                                             <p class="text-gray-200 text-lg md:text-xl" data-i18n="story_2_quote">"It offers <strong class="text-weg-light">very good accuracy</strong> and is more practical than traditional measurements. It allows revisiting captured data in case of doubts, eliminating the need to return to the site."</p>
                                         </blockquote>
                                         <footer class="flex items-center">
-                                            <!-- UPDATED PROFILE PHOTO -->
                                             <img class="h-12 w-12 rounded-full object-cover border border-weg-gray/40" src="images/user_stories_brasil_eliandro.png" alt="Eliandro da Silva">
                                             <div class="ml-4">
                                                 <p class="text-sm font-semibold text-gray-200">Eliandro da Silva</p>
@@ -414,10 +404,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Slide 3: Edward J. Swiecicki -->
+                            <!-- Slide 3 -->
                             <div class="w-full flex-shrink-0 p-8 md:p-12">
                                 <div class="flex flex-col md:flex-row gap-8 items-center">
-                                    <!-- UPDATED USER STORY IMAGE -->
                                     <img class="w-full md:w-1/3 h-64 md:h-auto rounded-lg object-cover border border-weg-gray/20" src="images/user_stories_eua.png" alt="Large Motor Scan">
                                     <div class="md:w-2/3">
                                         <div class="flex gap-2 mb-4">
@@ -425,11 +414,9 @@
                                             <span class="bg-weg-light/20 text-weg-light border border-weg-light/30 text-xs font-semibold px-2.5 py-0.5 rounded" data-i18n="tag_large_motors">Large Motors</span>
                                         </div>
                                         <blockquote class="border-l-4 border-weg-light pl-4 italic mb-6">
-                                            <!-- Edward: precise details -->
                                             <p class="text-gray-200 text-lg md:text-xl" data-i18n="story_3_quote">"I scanned a 1500 HP synchronous motor at International Paper, resulting in a finalized order. The tool captured <strong class="text-weg-light">precise details</strong> and allowed quick sharing with the customer."</p>
                                         </blockquote>
                                         <footer class="flex items-center">
-                                            <!-- UPDATED PROFILE PHOTO -->
                                             <img class="h-12 w-12 rounded-full object-cover border border-weg-gray/40" src="images/user_stories_eua_edward.png" alt="Edward J Swiecicki">
                                             <div class="ml-4">
                                                 <p class="text-sm font-semibold text-gray-200">Edward J. Swiecicki</p>
@@ -441,8 +428,8 @@
                             </div>
                         </div>
                     </div>
-                    <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 md:-translate-x-6 bg-weg-dark/80 hover:bg-weg-light text-white p-3 rounded-full shadow-lg border border-weg-gray/30 focus:outline-none transition-colors"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></button>
-                    <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 md:translate-x-6 bg-weg-dark/80 hover:bg-weg-light text-white p-3 rounded-full shadow-lg border border-weg-gray/30 focus:outline-none transition-colors"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button>
+                    <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 md:-translate-x-6 bg-weg-dark/80 hover:bg-weg-light text-white p-3 rounded-full shadow-lg border border-weg-gray/30 focus:outline-none transition-colors"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg></button>
+                    <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 md:translate-x-6 bg-weg-dark/80 hover:bg-weg-light text-white p-3 rounded-full shadow-lg border border-weg-gray/30 focus:outline-none transition-colors"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></button>
                     <div class="flex justify-center mt-6 space-x-2" id="carousel-dots"></div>
                 </div>
             </div>
@@ -461,12 +448,14 @@
                             <span class="text-5xl font-extrabold text-weg-light" data-i18n="price_value">USD 900</span>
                             <span class="text-xl font-medium text-gray-400 ml-1" data-i18n="price_period">/ year / license</span>
                         </div>
+                         <!-- UPDATED TEXT -->
+                         <p class="text-sm text-green-400 mt-2 font-semibold" data-i18n="price_trial">First 50 users receive a 1-year free license</p>
                          <p class="text-sm text-weg-light mb-6 italic" data-i18n="price_includes">Includes all features below:</p>
                         <ul class="text-left space-y-4 mb-8 text-gray-300 inline-block">
-                             <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span data-i18n="feature_3">Partner app -> Polycam</span></li>
-                             <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span data-i18n="feature_4">3D scanning training</span></li>
-                            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span data-i18n="feature_1">Unlimited captures</span></li>
-                             <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span data-i18n="feature_5">Priority engineering workflow</span></li>
+                             <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg><span data-i18n="feature_3">Partner app -> Polycam</span></li>
+                             <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg><span data-i18n="feature_4">3D scanning training</span></li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg><span data-i18n="feature_1">Unlimited captures</span></li>
+                             <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg><span data-i18n="feature_5">Priority engineering workflow</span></li>
                         </ul>
                         <a href="https://teams.microsoft.com/l/chat/0/0?users=nicollasn@weg.net" class="block w-full py-3 px-6 rounded-md bg-weg-light text-white font-bold hover:bg-weg-primary transition-colors duration-200" data-i18n="pricing_cta">Subscribe Now</a>
                     </div>
@@ -512,10 +501,6 @@
                         <p class="text-gray-300 mt-4 group-open:animate-fadeIn"><span data-i18n="faq_a3_text">Watch the detailed explanation at WEG Tech Week 2025:</span> <a href="https://weg365.sharepoint.com/:v:/r/teams/BR-WMOI-DIRENG-DEPTTECHNOLOGICALINNOVATIONMANAGEMENT/WEG%20Tech%20Week/WEG%20Tech%20Week%202025/WEG%20Tech%20Week%202025%20-%20DAY%204.mp4?csf=1&web=1&e=EPIZ4H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTgwNC45fX0%3D" target="_blank" class="text-weg-light hover:underline" data-i18n="faq_a3_link">Click here to watch</a>.</p>
                      </details>
                      <details class="group bg-weg-dark border border-weg-gray/20 rounded-xl p-6 cursor-pointer transition-all duration-300 open:shadow-lg">
-                        <summary class="flex justify-between items-center font-medium text-lg text-white select-none"><span data-i18n="faq_q4">Where can I download the application?</span><span class="transition-transform group-open:rotate-180"><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg></span></summary>
-                        <p class="text-gray-300 mt-4 group-open:animate-fadeIn" data-i18n="faq_a4">The app is available on the App Store and Play Store and will be sent to you along with your login and password, plus a user tutorial.</p>
-                     </details>
-                     <details class="group bg-weg-dark border border-weg-gray/20 rounded-xl p-6 cursor-pointer transition-all duration-300 open:shadow-lg">
                         <summary class="flex justify-between items-center font-medium text-lg text-white select-none"><span data-i18n="faq_q5">How precise are the measurements obtained?</span><span class="transition-transform group-open:rotate-180"><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg></span></summary>
                         <p class="text-gray-300 mt-4 group-open:animate-fadeIn" data-i18n="faq_a5">The measurements are precise with more than 98% accuracy, based on multiple field tests conducted.</p>
                      </details>
@@ -529,6 +514,11 @@
                         <summary class="flex justify-between items-center font-medium text-lg text-white select-none"><span data-i18n="faq_q7">How can I schedule a meeting to learn more about FastReplace?</span><span class="transition-transform group-open:rotate-180"><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg></span></summary>
                         <p class="text-gray-300 mt-4 group-open:animate-fadeIn" data-i18n="faq_a7">You can contact us via WhatsApp at +55 (47) 99291-0961 or send an email to nicollasn@weg.net</p>
                      </details>
+                     <!-- FAQ ITEM 4 MOVED TO END AND UPDATED -->
+                     <details class="group bg-weg-dark border border-weg-gray/20 rounded-xl p-6 cursor-pointer transition-all duration-300 open:shadow-lg">
+                        <summary class="flex justify-between items-center font-medium text-lg text-white select-none"><span data-i18n="faq_q4">Where can I download the application and learn how to use it?</span><span class="transition-transform group-open:rotate-180"><svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg></span></summary>
+                        <p class="text-gray-300 mt-4 group-open:animate-fadeIn" data-i18n="faq_a4">The app is available on the App Store and Play Store. Follow this link for a <a href="https://weg365.sharepoint.com/:b:/r/sites/WINS-DesignforImpact/Documentos%20Compartilhados/WEGexpert/Treinamentos/Landing%20page/FastReplace%20-%203D%20Scanning%20Field%20User%20Guide.pdf?csf=1&web=1&e=loPFtz" target="_blank" class="text-weg-light hover:underline">3D Scanning Field User Guide</a>.</p>
+                     </details>
                 </div>
              </div>
         </section>
@@ -540,6 +530,7 @@
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
             <div class="md:flex md:items-center md:justify-between">
                 <div class="flex justify-center space-x-6 md:order-2">
+                    <span class="text-sm text-gray-400 ml-4" data-i18n="footer_powered">Powered by WINS - WEG Innovation System</span>
                 </div>
                 <div class="mt-8 md:mt-0 md:order-1">
                     <p class="text-center text-base text-weg-gray" data-i18n="footer_copy">
@@ -568,27 +559,25 @@
                 step_3_title: "Design Specifications", step_3_desc: "On the platform, you will be able to measure any dimensions that are critical to the project.",
                 step_4_title: "Solution Delivery", step_4_desc: "Engineering teams will prioritize your offer, ensuring speed and interchangeability of the proposed solution.",
                 pains_title: "Solving pains, one by one.", pains_desc: "See how FastReplace solution applies directly to the biggest challenges.",
-                sol_2_title: "For the Field Salesperson", sol_2_desc: "<strong>Stop measuring, start selling.</strong> The simple app guides you step-by-step to capture all critical dimensions and surroundings at once, eliminating errors and repeat visits.",
-                sol_3_title: "For the Branch", sol_3_desc: "<strong>Generate automatic quotes and win more deals.</strong> Stop wasting time on rework. Our tool integrates measurements directly with engineering, cutting quote time and eliminating costly third-party scans.",
+                sol_2_title: "For the Field Salesperson", sol_2_desc: "<strong>One scan, all dimensions.</strong> The simple app help you capture all critical dimensions and surroundings at once, eliminating errors and repeat visits.",
+                sol_3_title: "For the Branch", sol_3_desc: "<strong>Faster quotes to win more deals.</strong> With no rework, the tool delivers measurements directly to engineering, cutting quote time and eliminating costly third-party scans.",
                 stories_subtitle: "User Stories", stories_title: "Real results in real plants.",
                 tag_simplicity: "Simplicity", tag_speed: "Speed", tag_accuracy: "Accuracy", tag_efficiency: "Efficiency", tag_sales: "Sales Conversion", tag_large_motors: "Large Motors",
-                story_1_quote: "\"I believe it will <strong class='text-weg-light'>revolutionize</strong> the work we do in the field. [...] With this, we can have an advantage by working more quickly in data collection.\"",
-                story_2_quote: "\"It offers <strong class='text-weg-light'>very good accuracy</strong> and is more practical than traditional measurements. It allows revisiting captured data in case of doubts, eliminating the need to return to the site.\"",
-                story_3_quote: "\"I scanned a 1500 HP synchronous motor at International Paper, resulting in a finalized order. The tool captured <strong class='text-weg-light'>precise details</strong> and allowed quick sharing with the customer.\"",
-                pricing_title: "Pricing", pricing_subtitle: "Simple and transparent.", pricing_license: "", price_value: "USD 900", price_period: "/ year / license", price_includes: "Includes all features below:", feature_1: "Unlimited captures", feature_2: "", feature_3: "Partner app -> Polycam", feature_4: "3D scanning training", feature_5: "Priority engineering workflow", pricing_cta: "Subscribe Now",
-                // FAQ Translations
+                story_1_quote: "\"I believe it will <strong>revolutionize</strong> the work we do in the field. [...] With this, we can have an advantage by working more quickly in data collection.\"",
+                story_2_quote: "\"It offers <strong>very good accuracy</strong> and is more practical than traditional measurements. It allows revisiting captured data in case of doubts, eliminating the need to return to the site.\"",
+                story_3_quote: "\"I scanned a 1500 HP synchronous motor at International Paper, resulting in a finalized order. The tool captured <strong>precise details</strong> and allowed quick sharing with the customer.\"",
+                pricing_title: "Pricing", pricing_subtitle: "Simple and transparent.", pricing_license: "", price_value: "USD 900", price_period: "/ year / license", price_includes: "Includes all features below:", feature_1: "Unlimited captures", feature_2: "", feature_3: "Partner app -> Polycam", feature_4: "3D scanning training", feature_5: "Priority engineering workflow", pricing_cta: "Subscribe Now", price_trial: "First 50 users receive a 1-year free license",
                 faq_header: "FAQ", faq_title: "Frequently Asked Questions",
                 faq_q1: "To what product sizes is this solution applicable?", faq_a1: "FastReplace applies to any equipment size, from a small washing machine motor, for example, to a huge turbo generator.",
                 faq_q2: "Can I scan only motors?", faq_a2: "No, FastReplace applies to any type of equipment for which a dimensional survey is necessary.",
                 faq_q3: "How does 3D scanning technology work?", faq_a3_text: "Watch the detailed explanation at WEG Tech Week 2025:", faq_a3_link: "Click here to watch",
-                faq_q4: "Where can I download the application?", faq_a4: "The app is available on the App Store and Play Store and will be sent to you along with your login and password, plus a user tutorial.",
+                faq_q4: "Where can I download the application and learn how to use it?", faq_a4: "The app is available on the App Store and Play Store. Follow this link for a <a href='https://weg365.sharepoint.com/:b:/r/sites/WINS-DesignforImpact/Documentos%20Compartilhados/WEGexpert/Treinamentos/Landing%20page/FastReplace%20-%203D%20Scanning%20Field%20User%20Guide.pdf?csf=1&web=1&e=loPFtz' target='_blank' class='text-weg-light hover:underline'>3D Scanning Field User Guide</a>.",
                 faq_q5: "How precise are the measurements obtained?", faq_a5: "The measurements are precise with more than 98% accuracy, based on multiple field tests conducted.",
                 faq_q6: "Which devices are supported?", faq_a6: "<p class='font-semibold'>iPhones (relies on high-quality cameras)</p><ul class='list-disc pl-5'><li>iPhone X and newer</li></ul><p class='font-semibold mt-2'>iPads</p><ul class='list-disc pl-5'><li>iPad Pro (2018 and later)</li></ul><p class='font-semibold mt-2'>Android (works best on flagship devices with high-resolution cameras)</p><ul class='list-disc pl-5'><li>Samsung Galaxy S20 and newer</li><li>Google Pixel 6 and newer</li></ul>",
                 faq_q7: "How can I schedule a meeting to learn more about FastReplace?", faq_a7: "You can contact us via WhatsApp at +55 (47) 99291-0961 or send an email to nicollasn@weg.net",
                 contact_title: "Ready to replace your competitors' installed base with WEG?", contact_desc: "Contact us to schedule a FastReplace demo.",
-                contact_btn_1: "Contact jgustavo@weg.net", contact_btn_2: "Contact nicollasn@weg.net",
                 footer_copy: "© 2025 WEG. All rights reserved.",
-                // Messages
+                footer_powered: "Powered by WINS - WEG Innovation System",
                 msg_whatsapp: "Hello, I would like to know more about FastReplace and how I can use it."
             },
             pt: {
@@ -600,32 +589,30 @@
                 persona_2_title: "Vendedor de Campo", persona_2_quote: "\"Preciso dos dados certos, rápido.\"", persona_2_desc: "\"Meu processo de coleta manual de dados é lento e propenso a erros. Corro o risco de perder dimensões críticas, tenho dificuldade em acessar o equipamento e é difícil capturar o ambiente complexo.\"",
                 persona_3_title: "Filial", persona_3_quote: "\"Precisamos fechar negócios, não apenas cotar.\"", persona_3_desc: "\"Demora muito para preparar uma cotação, levando a muito retrabalho. Também enfrentamos custos altos ao contratar serviços de medição 3D de terceiros, o que reduz nossa margem e nos atrasa.\"",
                 solution_subtitle: "A Solução", solution_title: "Como o FastReplace Funciona?", solution_desc: "Transformamos um problema complexo de engenharia em algo tão simples quanto tirar fotos. O processo usa seu próprio smartphone para garantir a intercambialidade perfeita.",
-                step_1_title: "Captura com Smartphone", step_1_desc: "Usando um aplicativo parceiro, você tira fotos do motor e da área de instalação. Não são necessários scanners caros ou visitas técnicas demoradas.",
-                step_2_title: "Criação do Modelo 3D", step_2_desc: "As fotos são processadas por um algoritmo de fotogrametria, criando um modelo 3D confiável (precisão >98%), com as dimensões necessárias, tudo de uma vez.",
+                step_1_title: "Captura com Smartphone", step_1_desc: "Usando um aplicativo parceiro, você tira fotos do motor e da área de instalação. No são necessários scanners caros ou visitas técnicas demoradas.",
+                step_2_title: "Criação do Modelo 3D", step_2_desc: "As fotos são processadas por um algoritmo de fotogrametria, criando um modelo 3D confiável (precisão >98%).",
                 step_3_title: "Especificações de Design", step_3_desc: "Na plataforma, você poderá medir quaisquer dimensões que sejam críticas para o projeto.",
                 step_4_title: "Entrega da Solução", step_4_desc: "Equipes de engenharia darão prioridade na sua oferta, garantindo velocidade e intercambialidade da solução proposta.",
                 pains_title: "Resolvendo dores, uma a uma.", pains_desc: "Veja como a solução FastReplace se aplica diretamente aos maiores desafios.",
-                sol_2_title: "Para o Vendedor de Campo", sol_2_desc: "<strong>Pare de medir, comece a vender.</strong> O aplicativo simples guia você passo a passo para capturar todas as dimensões críticas e arredores de uma vez, eliminando erros e visitas repetidas.",
-                sol_3_title: "Para a Filial", sol_3_desc: "<strong>Gere cotações automáticas e feche mais negócios.</strong> Pare de desperdiçar tempo com retrabalho. Nossa ferramenta integra medições diretamente com a engenharia, reduzindo o tempo de cotação e eliminando escaneamentos de terceiros caros.",
+                sol_2_title: "Para o Vendedor de Campo", sol_2_desc: "<strong>Um scan, todas as dimensões.</strong> O aplicativo simples ajuda você a capturar todas as dimensões críticas e arredores de uma vez, eliminando erros e visitas repetidas.",
+                sol_3_title: "Para a Filial", sol_3_desc: "<strong>Cotações mais rápidas para fechar mais negócios.</strong> Sem retrabalho, a ferramenta entrega medições diretamente para a engenharia, reduzindo o tempo de cotação e eliminando escaneamentos caros de terceiros.",
                 stories_subtitle: "Histórias de Sucesso", stories_title: "Resultados reais em plantas reais.",
                 tag_simplicity: "Simplicidade", tag_speed: "Velocidade", tag_accuracy: "Precisão", tag_efficiency: "Eficiência", tag_sales: "Conversão de Vendas", tag_large_motors: "Motores Grandes",
                 story_1_quote: "\"Acredito que vai <strong class='text-weg-light'>revolucionar</strong> o trabalho que fazemos em campo. [...] Com isso, podemos ter uma vantagem trabalhando mais rapidamente na coleta de dados.\"",
                 story_2_quote: "\"Oferece uma <strong class='text-weg-light'>precisão muito boa</strong> e é mais prático que medições tradicionais. Permite revisar dados capturados em caso de dúvidas, eliminando a necessidade de voltar ao local.\"",
                 story_3_quote: "\"Escaneei um motor síncrono de 1500 HP na International Paper, resultando em um pedido finalizado. A ferramenta capturou <strong class='text-weg-light'>detalhes precisos</strong> e permitiu compartilhamento rápido com o cliente.\"",
-                pricing_title: "Preços", pricing_subtitle: "Simples e transparente.", pricing_license: "", price_value: "USD 900", price_period: "/ ano / licença", price_includes: "Inclui todos os recursos abaixo:", feature_1: "Capturas ilimitadas", feature_2: "", feature_3: "App parceiro -> Polycam", feature_4: "Treinamento de escaneamento 3D", feature_5: "Fluxo prioritário de engenharia", pricing_cta: "Assinar Agora",
-                // FAQ Translations (Portuguese)
+                pricing_title: "Preços", pricing_subtitle: "Simples e transparente.", pricing_license: "", price_value: "USD 900", price_period: "/ ano / licença", price_includes: "Inclui todos os recursos abaixo:", feature_1: "Capturas ilimitadas", feature_2: "", feature_3: "App parceiro -> Polycam", feature_4: "Treinamento de escaneamento 3D", feature_5: "Fluxo prioritário de engenharia", pricing_cta: "Assinar Agora", price_trial: "Primeiros 50 usuários recebem 1 ano de licença gratuita",
                 faq_header: "FAQ", faq_title: "Perguntas Frequentes",
                 faq_q1: "A quais tamanhos de produtos essa solução é aplicável?", faq_a1: "O FastReplace se aplica a qualquer tamanho de equipamento, desde um pequeno motor para lavadoura de roupas, por exemplo, até um enorme turbo gerador.",
                 faq_q2: "Posso escanear somente motores?", faq_a2: "Não, o FastReplace se aplica a qualquer tipo de equipamento para o qual seja necessário fazer um levantamento dimensional.",
                 faq_q3: "Como funciona a tecnologia de escaneamento 3D?", faq_a3_text: "Assista em detalhes a explicação feita na WEG Tech Week 2025:", faq_a3_link: "Clique aqui para assistir",
-                faq_q4: "Onde posso baixar o aplicativo?", faq_a4: "O aplicativo está disponível na App Store e Play Store e será enviado para você junto com seu login e senha, além de um tutorial de uso.",
+                faq_q4: "Onde posso baixar o aplicativo e aprender a utilizá-lo?", faq_a4: "O aplicativo está disponível na App Store e Play Store. Siga este link para o <a href='https://weg365.sharepoint.com/:b:/r/sites/WINS-DesignforImpact/Documentos%20Compartilhados/WEGexpert/Treinamentos/Landing%20page/FastReplace%20-%203D%20Scanning%20Field%20User%20Guide.pdf?csf=1&web=1&e=loPFtz' target='_blank' class='text-weg-light hover:underline'>Guia do Usuário de Escaneamento 3D em Campo</a>.",
                 faq_q5: "Quão precisas são as medidas obtidas?", faq_a5: "As medições são precisas com mais de 98% de exatidão, com base em múltiplos testes de campo realizados.",
                 faq_q6: "Quais dispositivos são suportados?", faq_a6: "<p class='font-semibold'>iPhones (depende de câmeras de alta qualidade)</p><ul class='list-disc pl-5'><li>iPhone X e mais recentes</li></ul><p class='font-semibold mt-2'>iPads</p><ul class='list-disc pl-5'><li>iPad Pro (2018 e posteriores)</li></ul><p class='font-semibold mt-2'>Android (funciona melhor em dispositivos topo de linha com câmeras de alta resolução)</p><ul class='list-disc pl-5'><li>Samsung Galaxy S20 e mais recentes</li><li>Google Pixel 6 e mais recentes</li></ul>",
                 faq_q7: "Como posso agendar uma reunião para saber mais sobre o FastReplace?", faq_a7: "Você pode nos contatar via WhatsApp no +55 (47) 99291-0961 ou enviar um e-mail para nicollasn@weg.net",
                 contact_title: "Pronto para substituir a base instalada da concorrência com WEG?", contact_desc: "Entre em contato para agendar uma demonstração do FastReplace.",
-                contact_btn_1: "Contatar jgustavo@weg.net", contact_btn_2: "Contatar nicollasn@weg.net",
                 footer_copy: "© 2025 WEG. Todos os direitos reservados.",
-                 // Messages
+                footer_powered: "Desenvolvido no WINS - Sistema de Inovação WEG",
                 msg_whatsapp: "Olá, gostaria de saber mais sobre o FastReplace e como posso fazer para utilizá-lo."
             },
             es: {
@@ -635,201 +622,120 @@
                 hero_cta_1: "Hable con Nosotros", 
                 personas_subtitle: "A Quién Servimos", personas_title: "Tu dolor es nuestro punto de partida.", personas_desc: "",
                 persona_2_title: "Vendedor de Campo", persona_2_quote: "\"Necesito los datos correctos, rápido.\"", persona_2_desc: "\"Mi proceso manual de recolección de datos es lento y propenso a errores. Corro el riesgo de perder dimensiones críticas, tengo dificultad para acceder al equipo y es difícil capturar el entorno complejo.\"",
-                persona_3_title: "Sucursal", persona_3_quote: "\"Necesitamos cerrar tratos, no solo cotizar.\"", persona_3_desc: "\"Toma demasiado tiempo preparar una cotización, lo que lleva a mucho retrabajo. También enfrentamos altos costos al contratar servicios de medición 3D de terceros, lo que reduce nuestro margen y nos retrasa.\"",
+                persona_3_title: "Sucursal", persona_3_quote: "\"Necesitamos cerrar tratos, not solo cotizar.\"", persona_3_desc: "\"Toma demasiado tiempo preparar una cotización, lo que lleva a mucho retrabajo. También enfrentamos altos costos al contratar servicios de medición 3D de terceros, lo que reduce nuestro margen y nos retrasa.\"",
                 solution_subtitle: "La Solución", solution_title: "¿Cómo Funciona FastReplace?", solution_desc: "Convertimos un problema complejo de ingeniería en algo tan simple como tomar fotos. El proceso utiliza su propio smartphone para garantizar una intercambiabilidad perfecta.",
                 step_1_title: "Captura con Smartphone", step_1_desc: "Usando una aplicación socia, toma fotos del motor y el área de instalación. No se necesitan escáneres costosos ni largas visitas técnicas.",
                 step_2_title: "Creación del Modelo 3D", step_2_desc: "Las fotos son procesadas por un algoritmo de fotogrametría, creando un modelo 3D confiable (>98% de precisión).",
-                step_3_title: "Especificaciones de Diseño", step_3_desc: "En la plataforma, podrá medir cualquier dimensión que sea crítica para el proyecto.",
+                step_3_title: "Especificações de Design", step_3_desc: "En la plataforma, podrá medir cualquier dimensión que sea crítica para el proyecto.",
                 step_4_title: "Entrega de la Solución", step_4_desc: "Los equipos de ingeniería darán prioridad a su oferta, garantizando velocidad e intercambiabilidad de la solución propuesta.",
                 pains_title: "Resolviendo dolores, uno por uno.", pains_desc: "Vea cómo la solución FastReplace se aplica directamente a los mayores desafíos.",
-                sol_2_title: "Para el Vendedor de Campo", sol_2_desc: "<strong>Deje de medir, empiece a vender.</strong> La aplicación simple lo guía paso a paso para capturar todas las dimensiones críticas y alrededores a la vez, eliminando errores y visitas repetidas.",
-                sol_3_title: "Para la Sucursal", sol_3_desc: "<strong>Genere cotizaciones automáticas y gane más tratos.</strong> Deje de perder tiempo en retrabajos. Nuestra herramienta integra mediciones directamente con ingeniería, reduciendo el tiempo de cotización y eliminando costosos escaneos de terceros.",
+                sol_2_title: "Para el Vendedor de Campo", sol_2_desc: "<strong>Un solo escaneo, todas as dimensiones.</strong> La aplicación sencilla le ayuda a capturar todas las dimensiones críticas y el entorno a la vez, eliminando errores y visitas repetidas.",
+                sol_3_title: "Para la Sucursal", sol_3_desc: "<strong>Cotizaciones más rápidas para cerrar más tratos.</strong> Sin retrabajo, la herramienta entrega mediciones directamente a ingeniería, reduciendo el tiempo de cotización y eliminando costosos escaneos de terceros.",
                 stories_subtitle: "Historias de Usuario", stories_title: "Resultados reales en plantas reales.",
                 tag_simplicity: "Simplicidad", tag_speed: "Velocidad", tag_accuracy: "Precisión", tag_efficiency: "Eficiencia", tag_sales: "Conversión de Ventas", tag_large_motors: "Motores Grandes",
-                story_1_quote: "\"Creo que <strong class='text-weg-light'>revolucionará</strong> el trabajo que hacemos en el campo. [...] Con esto, podemos tener una ventaja trabajando más rápidamente en la recolección de datos.\"",
+                story_1_quote: "\"Creo que <strong class='text-weg-light'>revolucionará</strong> el trabajo que haceemos en el campo. [...] Con esto, podemos tener una ventaja trabajando más rápidamente en la recolección de datos.\"",
                 story_2_quote: "\"Ofrece <strong class='text-weg-light'>muy buena precisión</strong> y es más práctico que las mediciones tradicionales. Permite revisar datos capturados en caso de dudas, eliminando la necesidad de volver al sitio.\"",
                 story_3_quote: "\"Escaneé un motor síncrono de 1500 HP en International Paper, resultando en un pedido finalizado. La herramienta capturó <strong class='text-weg-light'>detalles precisos</strong> y permitió compartir rápidamente con el cliente.\"",
-                pricing_title: "Precios", pricing_subtitle: "Simple y transparente.", pricing_license: "Licencia Anual", price_value: "USD 900", price_period: "/ año / licencia", price_includes: "Incluye todas las características a continuación:", feature_1: "Capturas ilimitadas", feature_2: "", feature_3: "App socio -> Polycam", feature_4: "Entrenamiento de escaneo 3D", feature_5: "Flujo prioritario de ingeniería", pricing_cta: "Suscribirse Ahora",
-                // FAQ Translations (Spanish)
+                pricing_title: "Precios", pricing_subtitle: "Simple y transparente.", pricing_license: "Licencia Anual", price_value: "USD 900", price_period: "/ año / licencia", price_includes: "Incluye todas las características a continuación:", feature_1: "Capturas ilimitadas", feature_2: "", feature_3: "App socio -> Polycam", feature_4: "Entrenamiento de escaneo 3D", feature_5: "Flujo prioritario de ingeniería", pricing_cta: "Suscribirse Ahora", price_trial: "Los primeros 50 usuarios reciben 1 año de licencia gratuita",
                 faq_header: "FAQ", faq_title: "Preguntas Frecuentes",
                 faq_q1: "¿A qué tamaños de productos es aplicable esta solución?", faq_a1: "FastReplace se aplica a cualquier tamaño de equipo, desde un pequeño motor de lavadora, por ejemplo, hasta un enorme turbogenerador.",
                 faq_q2: "¿Puedo escanear solo motores?", faq_a2: "No, FastReplace se aplica a cualquier tipo de equipo para el cual sea necesario realizar un levantamiento dimensional.",
-                faq_q3: "¿Cómo funciona la tecnología de escaneo 3D?", faq_a3_text: "Vea la explicación detallada en WEG Tech Week 2025:", faq_a3_link: "Haga clic aquí para ver",
-                faq_q4: "¿Dónde puedo descargar la aplicación?", faq_a4: "La aplicación está disponible en App Store y Play Store y se le enviará junto con su nombre de usuario y contraseña, además de un tutorial de usuario.",
+                faq_q3: "¿Cómo funciona a tecnología de escaneo 3D?", faq_a3_text: "Vea la explicación detallada en WEG Tech Week 2025:", faq_a3_link: "Haga clic aquí para ver",
+                faq_q4: "¿Dónde puedo descargar la aplicación y aprender a utilizarla?", faq_a4: "La aplicación está disponible en App Store y Play Store. Siga este enlace para obter a <a href='https://weg365.sharepoint.com/:b:/r/sites/WINS-DesignforImpact/Documentos%20Compartilhados/WEGexpert/Treinamentos/Landing%20page/FastReplace%20-%203D%20Scanning%20Field%20User%20Guide.pdf?csf=1&web=1&e=loPFtz' target='_blank' class='text-weg-light hover:underline'>Guía del Usuario de Escaneo 3D en Campo</a>.",
                 faq_q5: "¿Qué tan precisas son las mediciones obtenidas?", faq_a5: "Las mediciones son precisas con más del 98% de exactitud, basadas en múltiples pruebas de campo realizadas.",
                 faq_q6: "¿Qué dispositivos son compatibles?", faq_a6: "<p class='font-semibold'>iPhones (depende de cámaras de alta calidad)</p><ul class='list-disc pl-5'><li>iPhone X y posteriores</li></ul><p class='font-semibold mt-2'>iPads</p><ul class='list-disc pl-5'><li>iPad Pro (2018 y posteriores)</li></ul><p class='font-semibold mt-2'>Android (funciona mejor en dispositivos insignia con cámaras de alta resolución)</p><ul class='list-disc pl-5'><li>Samsung Galaxy S20 y posteriores</li><li>Google Pixel 6 y posteriores</li></ul>",
                 faq_q7: "¿Cómo puedo programar una reunión para obtener más información sobre FastReplace?", faq_a7: "Puede contactarnos por WhatsApp al +55 (47) 99291-0961 o enviar un correo electrónico a nicollasn@weg.net",
                 contact_title: "¿Listo para reemplazar la base instalada de sus competidores con WEG?", contact_desc: "Contáctenos para programar una demostración de FastReplace.",
-                contact_btn_1: "Contactar jgustavo@weg.net", contact_btn_2: "Contactar nicollasn@weg.net",
-                footer_copy: "© 2025 WEG. Todos los derechos reservados.",
-                 // Messages
+                footer_copy: "© 2025 WEG. Todos os derechos reservados.",
+                footer_powered: "Impulsado por WINS - Sistema de Inovación WEG",
                 msg_whatsapp: "Hola, me gustaría saber más sobre FastReplace y cómo puedo utilizarlo."
             }
         };
 
-        // --- FLAG SVGs ---
         const flags = {
             en: `<svg viewBox="0 0 640 480" class="w-full h-full object-cover"><path fill="#bd3d44" d="M0 0h640v480H0"/><path stroke="#fff" stroke-width="37" d="M0 55.3h640M0 129h640M0 202.8h640M0 276.5h640M0 350.2h640m0 73.7h640"/><path fill="#192f5d" d="M0 0h264.8v236.2H0z"/><marker id="us-star" markerHeight="30" markerWidth="30"><path fill="#fff" d="m14 0 9 27L0 10h28L5 27z"/></marker><path fill="none" marker-mid="url(#us-star)" d="m0 0 16 11h61 61 61 60 4 13h59 59 60 60 5 13h59 59 60 60 5 13h59 59 60 60 4 13h61 61 61 60"/></svg>`,
             pt: `<svg viewBox="0 0 640 480" class="w-full h-full object-cover"><path fill="#009c3b" d="M0 0h640v480H0"/><path fill="#ffdf00" d="m320 40 283 200-283 200L37 240z"/><circle cx="320" cy="240" r="82" fill="#002776"/><path fill="none" stroke="#fff" stroke-width="8" d="M190 255s80-45 260-10"/></svg>`,
             es: `<svg viewBox="0 0 640 480" class="w-full h-full object-cover"><path fill="#aa151b" d="M0 0h640v480H0"/><path fill="#f1bf00" d="M0 120h640v240H0z"/></svg>`
         };
 
-        // Contact link generation based on current language
         function updateContactLinks(lang) {
             const message = translations[lang].msg_whatsapp;
             const encodedMessage = encodeURIComponent(message);
-            
-            // WhatsApp
             const whatsappBtn = document.getElementById('whatsapp-btn');
-            if (whatsappBtn) {
-                whatsappBtn.href = `https://wa.me/5547992910961?text=${encodedMessage}`;
-            }
-            
-            // Teams (using mailto as a fallback/standard way to initiate) or specific deep link if possible. 
-            // Standard mailto often opens default mail client, but for Teams specifically:
-            // Ideally, use: https://teams.microsoft.com/l/chat/0/0?users=nicollasn@weg.net&message=<message>
+            if (whatsappBtn) whatsappBtn.href = `https://wa.me/5547992910961?text=${encodedMessage}`;
             const teamsBtn = document.getElementById('teams-btn');
-            if (teamsBtn) {
-                teamsBtn.href = `https://teams.microsoft.com/l/chat/0/0?users=nicollasn@weg.net&message=${encodedMessage}`;
-            }
-            
-            // Outlook (Mailto)
+            if (teamsBtn) teamsBtn.href = `https://teams.microsoft.com/l/chat/0/0?users=nicollasn@weg.net&message=${encodedMessage}`;
             const outlookBtn = document.getElementById('outlook-btn');
-            if (outlookBtn) {
-                outlookBtn.href = `mailto:nicollasn@weg.net?subject=FastReplace%20Inquiry&body=${encodedMessage}`;
-            }
+            if (outlookBtn) outlookBtn.href = `mailto:nicollasn@weg.net?subject=FastReplace%20Inquiry&body=${encodedMessage}`;
         }
 
         function changeLanguage(lang) {
-            // Update text
             const elements = document.querySelectorAll('[data-i18n]');
             elements.forEach(el => {
                 const key = el.getAttribute('data-i18n');
                 if (translations[lang] && translations[lang][key]) {
-                    // Keys that contain HTML tags must be set via innerHTML
-                    if (key.startsWith('sol_') || key.startsWith('story_') || key === 'faq_a6') {
+                    if (key.startsWith('sol_') || key.startsWith('story_') || key === 'faq_a6' || key === 'faq_a4') {
                         el.innerHTML = translations[lang][key];
                     } else {
                         el.textContent = translations[lang][key];
                     }
                 }
             });
-            
-            // Update current language label and flag
             document.getElementById('current-lang-label').textContent = lang.toUpperCase();
             document.getElementById('current-flag').innerHTML = flags[lang];
-
-            // Update contact links with translated message
             updateContactLinks(lang);
         }
         
-        // Image switching function for the solution section
         function updateSolutionImage(stepIndex) {
              const imageElement = document.getElementById('solution-image');
-             const steps = document.querySelectorAll('.step-content');
-             
-             // Remove active class from all steps
-             steps.forEach(step => {
-                 step.classList.remove('step-active');
-                 step.classList.remove('border-weg-light');
-                 step.classList.add('border-transparent');
-                 
-                 // Find the circle number inside the step
-                 const circle = step.querySelector('.rounded-full');
+             const stepItems = document.querySelectorAll('.step-item');
+             stepItems.forEach(item => {
+                 item.classList.remove('active');
+                 const circle = item.querySelector('.rounded-full');
                  if (circle) {
-                     circle.classList.remove('bg-weg-light', 'text-white', 'border-white/10');
+                     circle.classList.remove('bg-weg-light', 'text-white');
                      circle.classList.add('border-gray-600', 'text-gray-400');
                  }
-                 
-                 // Reset text colors for non-active state
-                 const title = step.querySelector('h4');
-                 if (title) {
-                     title.classList.remove('text-white');
-                     title.classList.add('text-gray-300');
-                 }
              });
-             
-             // Add active class to clicked step
              const currentStep = document.getElementById(`step-btn-${stepIndex}`);
              if (currentStep) {
-                 currentStep.classList.add('step-active');
-                 currentStep.classList.remove('border-transparent');
-                 currentStep.classList.add('border-weg-light');
-                 
-                 // Update the circle number for active state
+                 currentStep.classList.add('active');
                  const circle = currentStep.querySelector('.rounded-full');
                  if (circle) {
                      circle.classList.remove('border-gray-600', 'text-gray-400');
-                     circle.classList.add('bg-weg-light', 'text-white', 'border-white/10');
-                 }
-                 
-                 // Update title color for active state
-                 const title = currentStep.querySelector('h4');
-                 if (title) {
-                     title.classList.remove('text-gray-300');
-                     title.classList.add('text-white');
+                     circle.classList.add('bg-weg-light', 'text-white');
                  }
              }
-             
-             // Update image source based on step with fade effect
              imageElement.classList.add('opacity-0');
-             
              setTimeout(() => {
                  switch(stepIndex) {
-                     case 1:
-                         imageElement.src = "images/the_solution_1.png"; 
-                         // Fallback if local image fails (for demo purposes)
-                         imageElement.onerror = function() { this.src = 'https://placehold.co/600x450/2c3e50/00B0F0?text=Step+1:+Smartphone+Capture'; };
-                         break;
-                     case 2:
-                         imageElement.src = "images/the_solution_2.png";
-                         imageElement.onerror = function() { this.src = 'https://placehold.co/600x450/2c3e50/00B0F0?text=Step+2:+3D+Model+Creation'; };
-                         break;
-                     case 3:
-                         imageElement.src = "images/the_solution_3.png";
-                         imageElement.onerror = function() { this.src = 'https://placehold.co/600x450/2c3e50/00B0F0?text=Step+3:+Design+Specifications'; };
-                         break;
-                     case 4:
-                         imageElement.src = "images/the_solution_4.png";
-                         imageElement.onerror = function() { this.src = 'https://placehold.co/600x450/2c3e50/00B0F0?text=Step+4:+Solution+Delivery'; };
-                         break;
+                     case 1: imageElement.src = "images/the_solution_1.png"; break;
+                     case 2: imageElement.src = "images/the_solution_2.png"; break;
+                     case 3: imageElement.src = "images/the_solution_3.png"; break;
+                     case 4: imageElement.src = "images/the_solution_4.png"; break;
                  }
                  imageElement.classList.remove('opacity-0');
              }, 300);
         }
 
-        // --- CAROUSEL LOGIC (Existing) ---
         document.addEventListener('DOMContentLoaded', function() {
-            // Initialize links with default language (EN)
             updateContactLinks('en');
-            
-            // Initialize solution image state
-            updateSolutionImage(1);
-
             const track = document.getElementById('carousel-track');
             const slides = track.children;
             const nextBtn = document.getElementById('nextBtn');
             const prevBtn = document.getElementById('prevBtn');
             const dotsContainer = document.getElementById('carousel-dots');
-            
             let currentIndex = 0;
             const totalSlides = slides.length;
-
-            // Create dots
             for (let i = 0; i < totalSlides; i++) {
                 const dot = document.createElement('button');
                 dot.classList.add('w-3', 'h-3', 'rounded-full', 'transition-colors', 'duration-300', 'focus:outline-none');
-                if (i === 0) {
-                    dot.classList.add('bg-weg-light');
-                } else {
-                    dot.classList.add('bg-weg-gray', 'hover:bg-gray-400');
-                }
+                if (i === 0) dot.classList.add('bg-weg-light');
+                else dot.classList.add('bg-weg-gray', 'hover:bg-gray-400');
                 dot.addEventListener('click', () => goToSlide(i));
                 dotsContainer.appendChild(dot);
             }
-
             const dots = dotsContainer.children;
-
             function updateDots(index) {
                 for (let dot of dots) {
                     dot.classList.remove('bg-weg-light');
@@ -838,37 +744,15 @@
                 dots[index].classList.remove('bg-weg-gray', 'hover:bg-gray-400');
                 dots[index].classList.add('bg-weg-light');
             }
-
             function goToSlide(index) {
                 currentIndex = index;
                 const amountToMove = -100 * currentIndex;
                 track.style.transform = `translateX(${amountToMove}%)`;
                 updateDots(currentIndex);
             }
-
-            nextBtn.addEventListener('click', () => {
-                if (currentIndex === totalSlides - 1) {
-                    goToSlide(0); 
-                } else {
-                    goToSlide(currentIndex + 1);
-                }
-            });
-
-            prevBtn.addEventListener('click', () => {
-                if (currentIndex === 0) {
-                    goToSlide(totalSlides - 1); 
-                } else {
-                    goToSlide(currentIndex - 1);
-                }
-            });
-
-            setInterval(() => {
-                if (currentIndex === totalSlides - 1) {
-                    goToSlide(0);
-                } else {
-                    goToSlide(currentIndex + 1);
-                }
-            }, 8000);
+            nextBtn.addEventListener('click', () => { currentIndex = (currentIndex === totalSlides - 1) ? 0 : currentIndex + 1; goToSlide(currentIndex); });
+            prevBtn.addEventListener('click', () => { currentIndex = (currentIndex === 0) ? totalSlides - 1 : currentIndex - 1; goToSlide(currentIndex); });
+            setInterval(() => { currentIndex = (currentIndex === totalSlides - 1) ? 0 : currentIndex + 1; goToSlide(currentIndex); }, 8000);
         });
     </script>
 
